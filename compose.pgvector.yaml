@@ -1,0 +1,5 @@
+# Optional override for the existing PostgreSQL 17 service and existing volume.
+# Run explicitly as described in SEMANTIC_SEARCH.md; never use `down -v`.
+services:
+  db:
+    image: pgvector/pgvector:pg17-trixie

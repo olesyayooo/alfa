@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.DS_Store
+*.backup
+*.dump
+*.sql.gz
+*.log
+catalog.jsonl
+.model-cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+/search_comparison.md
+
+# Local evaluation data. Keep query definitions, prompt and the compact report.
+/evaluation/*
+!/evaluation/queries.json
+!/evaluation/deepseek_prompt.md
+!/evaluation/README.md
+!/evaluation/metrics_report.md
